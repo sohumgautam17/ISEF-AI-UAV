@@ -14,10 +14,13 @@ def main():
         
         
 def is_even(n):
+#ITeration 1 
     #if n%2 ==0:
         #return True
     #else:
         #return False
-    return True if x % 2 == 0 else return False
+# Iteration 2
+    #return True if x % 2 == 0 else return False
+    return  n % 2 ==0
 
 main()
