@@ -2,17 +2,14 @@
 #print(int(input("what is x?")) + int(input("What is y?")))
 
 # float is decimal point and round it up
-def main():
-  x = int(input("What is x"))
-  print("X squared is", square(x))
+x = float(input("what is x?"))
+y = float(input("What is y?"))
 
-def square(n):
-  return n*n
+z = round(x/y, 3)
 
-if __name__ == "__main__":
-    main()
 # or 
 
+print(f"{z:.2f}")
 # [] signals that something is optional   &     :,   puts , in between every 3 values 
 
 

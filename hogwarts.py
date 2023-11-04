@@ -1,4 +1,8 @@
-students = ["Hermione", "Harry", "Harry"]
+students = [
+    {"name": "Sohum", "Food": "Pizza", "Sport": None},
+    {"name": "Mihika", "Food": "Tacos", "Sport": "Tennis"}
+    
+]
 
-for i in range(len(students)):
-    print(i+1, students[i])
+for students in students:
+    print(students["name"], students["Food"], students["Sport"], sep = " ")
